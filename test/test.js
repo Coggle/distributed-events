@@ -4,7 +4,7 @@ var AWS = require('aws-sdk');
 AWS.config.update({accessKeyId:'XXXX', secretAccessKey: 'XXXX'});
 AWS.config.update({region: 'eu-west-1' });
 
-new SNSEventEmitter('testing', 'testthing', function(err, emitter){
+new SNSEventEmitter({ topic: 'testing' }, function(err, emitter){
 
     console.log(err, emitter);
 
