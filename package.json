@@ -1,0 +1,29 @@
+{
+  "name": "distributed-events",
+  "version": "0.0.0",
+  "description": "Distributed EventEmitter using Amazon SNS+SQS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Coggle/distributed-events.git"
+  },
+  "keywords": [
+    "distributed",
+    "eventemitter",
+    "sns",
+    "sqs"
+  ],
+  "author": "Andy <andy@coggle.it>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coggle/distributed-events/issues"
+  },
+  "homepage": "https://github.com/Coggle/distributed-events",
+  "dependencies": {
+    "aws-sdk": "~2.0.23",
+    "underscore": "~1.7.0"
+  }
+}
